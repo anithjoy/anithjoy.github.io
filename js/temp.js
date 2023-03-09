@@ -7,3 +7,5 @@ const Hello = () => {
         
     </div>)
 }
+
+ReactDOM.render(React.createElement("Hello",null),document.getElementById("root"))
