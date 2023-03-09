@@ -8,4 +8,4 @@ const Hello = () => {
     </div>)
 }
 
-ReactDOM.render(React.createElement("Hello",null),document.getElementById("root"))
+ReactDOM.render(<Hello/>,document.getElementById("root"))
