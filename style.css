@@ -1,0 +1,305 @@
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+/* Style for the dropdown content initially hidden */
+.dropdown-content {
+  display: none;
+}
+
+/* Optional styling for the link button */
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* starts here */
+
+.header {
+  text-align: center;
+}
+
+/* Home */
+/* space at the beginning */
+
+/* .home {
+  margin-top: 100px;
+
+} */
+
+/* Used for spacing to reach each tab perfect through navigation  */
+.spacing {
+  /* background-color: black; */
+  height: 100px;
+}
+
+/* Profile picture */
+.profile-image {
+  border-radius: 50%;
+  height: auto;
+  width: 500px;
+  border: solid 10px black;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.home-item-1 {
+  margin-right: 200px;
+}
+
+.home-item-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.home-item-2 a {
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+.resume {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.resume:hover {
+  background-color: #2980b9;
+}
+/* about */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.about-item-1 {
+  text-align: center;
+  width: 40%;
+}
+
+.about-item-1 a {
+  text-decoration: none;
+}
+
+/* Education */
+.education-container {
+  padding-bottom: 100px;
+}
+.education-item-container {
+  display: flex;
+  justify-content: center;
+}
+
+.education-item-container div {
+  text-align: center;
+  width: 450px;
+  margin-left: 50px;
+}
+
+/* Card styling for education-card */
+.education-card {
+  border: 1px solid #ddd; /* Border color for the card */
+  border-radius: 8px; /* Border radius to create rounded corners */
+  padding: 15px; /* Padding inside the card */
+  margin-bottom: 15px; /* Margin between cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for a subtle lift */
+  background-color: rgb(206, 206, 206);
+}
+
+/* Optional: Hover effect for the card */
+.education-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* services */
+
+.service-container {
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+  justify-content: center; /* horizontal vertical*/
+  align-items: center; /* horizontal vertical*/
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.service-container img {
+  /* border: solid black; */
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.service-container div {
+  text-align: center;
+  margin: 15px;
+  width: 50%;
+}
+
+.service-item-2 img {
+  /* background-color: #007bff; */
+  margin-top: 0px;
+}
+
+/* projects */
+.project {
+  padding-bottom: 100px;
+}
+.project-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+/* Your custom styles for the image within the project item */
+.project-item-container img {
+  border-radius: 5%;
+  height: auto; /* Set the desired fixed height for the image */
+  width: 600px; /* Maintain the aspect ratio */
+  margin-right: 20px; /* Adjust as needed for spacing between image and text */
+}
+
+/* Your custom styles for the text within the project item */
+.project-item-container div:last-child {
+  width: 600px;
+
+  /* flex-grow: 1; Allow the text to grow and take available space */
+}
+
+#toggleButton {
+  background-color: #3498db; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 15px; /* Padding */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+#toggleButton:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+}
+
+.viewMore {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* publication */
+.publication {
+  padding-bottom: 100px;
+}
+.publication-container {
+  /* background-color: #007bff; */
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.publication-card {
+  border: 1px solid #ddd; /* Border color for the card */
+  border-radius: 8px; /* Border radius to create rounded corners */
+  padding: 15px; /* Padding inside the card */
+  margin-bottom: 15px; /* Margin between cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for a subtle lift */
+  text-align: center;
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.publication-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* contact */
+
+.contact-container {
+  /* background-color: #007bff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-item-1,
+.contact-item-2,
+.contact-item-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-img {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img:hover {
+  box-shadow: 0 8px 16px rgba(164, 189, 239, 0.961);
+}
+
+/* overall contact and footer */
+.contact {
+  background-color: rgb(38, 72, 86);
+  color: #ddd;
+}
+
+/* body color */
+
+.dark-color {
+  background-color: rgb(167, 167, 167);
+}
+
+.light-color {
+  background-color: rgb(206, 206, 206);
+}
+
+.footer-color {
+  background-color: rgb(120, 120, 120);
+  color: black;
+}
